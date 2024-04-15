@@ -12,6 +12,8 @@ git clone https://github.com/ritual-net/infernet-container-starter
 
 cd infernet-container-starter
 
+git checkout 2a11fd3953ed679b137dae574de9fbce3046a22e
+
 screen -S ritual
 
 sudo project=hello-world make deploy-container -d
